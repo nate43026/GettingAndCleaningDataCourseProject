@@ -18,7 +18,7 @@ The run_analysis.R script will:
 4. Label the activities according to the activity_labels.txt file, clean up the names slightly by removing "()" and "-" characters.
 5. Transform the Activity values to a more human-readable description (e.g "WALKING", "RUNNING", etc).
 6. Group the data by Subject and Activity, with the means of all aggregated measurements that included "mean()" or "std()" in their original descriptions. 
-7. Write the new tidy data set to the output file TidyData.csv in the working directory.
+7. Write the new tidy data set to the output file TidyData.csv in the working directory. The format is comma-delimited text with a header row.
 
 
 
